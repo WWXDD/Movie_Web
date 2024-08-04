@@ -1,0 +1,158 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+}
+
+
+.welcome-msg {
+    margin: 5px;
+    flex-grow: 1; /* Takes up the remaining space */
+    font-size: x-large;
+    text-align: center;
+}
+
+.profile-button,
+.logout-button,
+.home-button,
+.register-button {
+    margin: 5px;
+}
+
+.profile-button a,
+.logout-button a,
+.home-button a,
+.register-button a {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    border-radius: 8px;
+    color: white;
+    padding: 8px 16px;
+    text-align: left;
+    text-decoration: none;
+    display: center;
+    font-size: 20px;
+    
+}
+
+.home-button a:hover,
+.profile-button a:hover,
+.logout-button a:hover,
+.register-button a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.main {
+    padding: 20px;
+}
+
+.catalogo {
+    text-align: center;
+}
+
+.datos {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex; /* Cambiado a flex container */
+}
+
+.datos table {
+    flex: 1; /* Ocupa todo el espacio disponible en la primera columna */
+    border-collapse: collapse;
+}
+
+.datos img {
+    max-width: 100%; /* Ajusta la imagen al ancho de su contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Formulario de comentarios Styles */
+.comment-form,
+.comment-form-container {
+    text-align: center; /* Center the form */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.comment-form input[type="text"] {
+    padding: 8px;
+    width: 60%; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.login-form {
+    text-align: center; /* Center the content */
+}
+
+.login-form h2,
+.login-form form {
+    display: inline-block; /* Set elements to display in a line */
+    vertical-align: middle; /* Align vertically in the middle */
+    margin: 0; /* Remove any default margins */
+}
+
+.login-form form {
+    margin-left: 10px; /* Adjust the margin between h2 and form as needed */
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.button-container {
+    display: center;
+    margin-top: 20px;
+    
+    
+}
+
+.button-container form {
+    display: inline-block;
+    margin: 0; /* Eliminar margen del formulario */
+}
+
+.button-container input[type="submit"] {
+    margin: 0; /* Eliminar margen del botón de envío */
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    border-radius: 8px;
+    color: white;
+    padding: 8px 16px;
+    text-align: left;
+    text-decoration: none;
+    display: center;
+    font-size: 20px;
+}
+

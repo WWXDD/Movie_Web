@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black; /* Fondo negro para toda la página */
+    color: white; /* Texto blanco para mejor visibilidad en fondos oscuros */
+    padding-top: 20px; /* Añadir espacio superior para evitar superposición con la ventana del navegador */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 10px;
+    background: linear-gradient(to right, #f362ff, #8811c5); /* Fondo con degradado */
+    color: white; /* Texto blanco para mejor visibilidad en fondos oscuros */
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(to right, #8811c5, #f362ff); /* Cambio de color al pasar el ratón */
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Opcional: Estilo para el cuerpo del mensaje */
+h1, p {
+    background: linear-gradient(to right, #f362ff, #8811c5); /* Fondo con degradado */
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    display: flex; /* Use flexbox to layout items in a row */
+    align-items: center; /* Align items vertically in the center */
+    justify-content: start; /* Align items to the start of the container */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin-right: auto; /* Pushes all other items to the right */
+}
+
+header img {
+    margin-right: 10px;
+}
+
+.profile-button, .logout-button, .home-button {
+    margin: 0 10px; /* Adjust spacing between buttons */
+}
+
+/* Adjustments to the welcome message and the buttons */
+.welcome-msg {
+    display: flex; /* Use flexbox to layout welcome message with the image */
+    align-items: center; /* Align items vertically in the center */
+    font-size: 1.2em;
+    margin: 0; /* Remove margin to avoid extra space */
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Button Styles */
+.profile-button, .logout-button, .register-button, .home-button {
+    display: inline-block;
+    margin: 20px; /* Increased margin */
+}
+
+.profile-button a, .logout-button a, .register-button a, .home-button a {
+    background: linear-gradient(to right, #f362ff, #8811c5); /* Gradient background */
+    color: white;
+    padding: 16px 32px; /* Adjusted padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px; /* Slightly larger font */
+    border-radius: 8px; /* Rounded borders */
+}
+
+/* Movie Catalog Styles */
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.pelicula {
+    width: 250px;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 12px;
+    background: linear-gradient(to right, #f362ff, #8811c5); /* Gradient background */
+    transition: transform 0.3s ease; /* Transition effect */
+}
+.login-form h2,
+.login-form form {
+    display: inline-block; /* Set elements to display in a line */
+    vertical-align: middle; /* Align vertically in the middle */
+    margin: 0; /* Remove any default margins */
+    padding-right: 90px;
+}
+
+.pelicula h2 {
+    display: block;
+    color: white;
+}
+
+.pelicula:hover {
+    transform: scale(1.05); /* Scale on hover */
+}
+
+.pelicula img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.search-and-filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -5px; /* Negative margin to create space in between */
+}
+
+.search-bar,
+.filtros {
+    margin: 0 5px; /* Adjust the margin as needed for spacing */
+}
+/* Filter Section Styles */
+.filtros {
+    background-color: #0d0d0d; /* Background color */
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-bottom: 5px;
+}
+
+.filtros h2 {
+    margin-bottom: 10px;
+    color: #fff; /* Text color */
+}
+
+.filtros form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filtros label {
+    margin-right: 10px;
+}
+
+.filtros select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.filtros input[type="submit"] {
+    background: linear-gradient(to right, #f362ff, #8811c5); /* Gradient background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.filtros input[type="submit"]:hover {
+    background-color: #00838f; /* Hover color */
+}

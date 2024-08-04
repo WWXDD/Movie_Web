@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0d0d0d;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.welcome-msg {
+    margin: 5px;
+    flex-grow: 1; /* Takes up the remaining space */
+    font-size:x-large;
+    text-align: center;
+}
+
+.profile-button, .logout-button, .home-button {
+    margin: 5px;
+}
+
+.profile-button a, .logout-button a, .home-button a {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    color: white;
+    padding: 8px 16px;
+    text-align: left;
+    text-decoration: none;
+    display: center;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.home-button a:hover,
+.profile-button a:hover,
+.logout-button a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.main {
+    padding: 20px;
+}
+
+.catalogo {
+    text-align: center;
+}
+
+.detalles-pelicula {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.detalles-pelicula td {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.comments-table {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.comments-table th, .comments-table td {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Formulario de comentarios Styles */
+.comment-form {
+    text-align: center; /* Center the form */
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.comment-form input[type="text"] {
+    padding: 8px;
+    width: 60%; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.comment-form-container {
+    text-align: center;
+    margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.comment-form {
+    display: inline-block;
+    background-color: #222; /* Darker background for the form */
+    padding: 20px; /* Add padding for better appearance */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.comment-form input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment-form input[type="submit"] {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comment-form input[type="submit"]:hover {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+}
+
+/* Add a new class for the signup button */
+.register-button a {
+    background: linear-gradient(to right, #f362ff, #8811c5);
+    color: white;
+    padding: 8px 16px;
+    text-align: left;
+    text-decoration: none;
+    display: center;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.register-button a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.login-form {
+    text-align: center; /* Center the content */
+}
+
+
+.login-form h2,
+.login-form form {
+    display: inline-block; /* Set elements to display in a line */
+    vertical-align: middle; /* Align vertically in the middle */
+    margin: 0; /* Remove any default margins */
+    padding-right: 90px;
+}
+
+.login-form form {
+    margin-left: 10px; /* Adjust the margin between h2 and form as needed */
+}
